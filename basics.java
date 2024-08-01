@@ -6,5 +6,14 @@ public class basics {
 
         String mystring = "Esto es una cadena de teto";
         System.out.println(mystring);
+
+        Integer myinteger = 7;
+        System.out.println(myinteger);
+
+        if (myinteger % 2 == 0) {
+            System.out.println("El número es par");
+        } else {
+            System.out.println("El número es impar");
+        }
     }
 }
